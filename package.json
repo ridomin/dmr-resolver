@@ -1,7 +1,7 @@
 {
-  "name": "template-typescript-package",
-  "version": "0.0.0-development",
-  "description": "A boilerplate repo for publishing typescript packages to npm",
+  "name": "@ridomin/resolver",
+  "version": "0.0.1-development",
+  "description": "A model repo resolver",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -23,21 +23,10 @@
     "Starter"
   ],
   "author": {
-    "name": "Bram Borggreve",
-    "email": "borggreve@gmail.com"
+    "name": "rido",
+    "email": "ridomin@live.com"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/beeman/template-typescript-package/issues"
-  },
-  "homepage": "https://github.com/beeman/template-typescript-package#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint && npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "yarn lint && npm test"
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
